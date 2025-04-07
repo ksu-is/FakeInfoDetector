@@ -7,14 +7,12 @@
 - [X] Setup repository in KSU-IS
 - [X] Create Readme
 - [X] Create RoadMap (Well, looky here)
-- [ ] 
 
 
 ---
 
 ## 🧱 Stage 2:
 ### ✅ Objectives:
-- [ ] Develop and integrate core functionalities  
 
 ---
 
