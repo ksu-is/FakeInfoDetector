@@ -12,4 +12,4 @@ The goal of this program is to help users evaluate the credibility of the inform
 
 - Takes in information such as a article or link you might be skeptical about
 - Runs that information through multiple systems 
-- Detects if the information is real or fake by judging if there's keywords that will set it off
+- Detects if the information is real or fake by digging into it.
