@@ -12,10 +12,11 @@ def check_fake_keywords(text):
         "breaking", "shocking truth", "cover-up", "alternative facts",
         "deep state", "whistleblower", "urgent"
     ]
+    found_keywords = []
     for keyword in fake_keywords:
         if keyword.lower() in text.lower():
-            return True
-    return False
+            found_keywords.append(keyword)
+    return found_keywords
 
 def check_trusted_domain(url):
     trusted_domains = [
@@ -37,7 +38,7 @@ def check_news():
 
     is_url_input = is_url(user_input)
     trusted = False
-    suspicious = check_fake_keywords(user_input)
+    matched_keywords = check_fake_keywords(user_input)
 
     if is_url_input:
         print("You entered a URL.")
@@ -49,10 +50,11 @@ def check_news():
     else:
         print("You entered article text.")
 
-    if suspicious:
-        print("⚠️ Warning: This might be fake news based on the wording.")
+    if matched_keywords:
+        print("⚠️ Warning: This might be fake news based on the following keyword(s):")
+        print(" → " + ", ".join(matched_keywords))
     else:
-        print("✅ This doesn't look suspicious (but always double-check the source).")
+        print("✅ No suspicious keywords were found.")
 
     print()
 
