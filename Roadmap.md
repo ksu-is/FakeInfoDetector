@@ -19,6 +19,7 @@ I’m creating a powerful Python script designed to cut through online noise and
 - [X] Establish Links.
 - [X] Creating a error/success message when inserting a link or text.
 - [X] Create a Basic GUI 
+- [ ] Re-vision the GUI, It's boring.
 ---
 
 ## 🚢 Stage 3:
