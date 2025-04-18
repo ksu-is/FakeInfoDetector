@@ -7,7 +7,8 @@ I’m creating a powerful Python script designed to cut through online noise and
 - [X] Setup repository in KSU-IS
 - [X] Create Readme
 - [X] Create RoadMap (Well, looky here)
-
+- [X] Establish a base code
+- [X] Establish the possibilities within the code and the far extent.
 
 ---
 
