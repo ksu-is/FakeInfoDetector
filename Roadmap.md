@@ -23,6 +23,7 @@ I’m creating a powerful Python script designed to cut through online noise and
 
 ## 🚢 Stage 3:
 ### ✅ Objectives:
+- [ ] Finalize Code
 - [ ] Create PowerPoint
 - [ ] Complete Presentation
-- 
+
