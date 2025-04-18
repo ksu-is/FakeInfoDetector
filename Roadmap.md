@@ -17,9 +17,12 @@ I’m creating a powerful Python script designed to cut through online noise and
 ### ✅ Objectives:
 - [X] Establish Keywords.
 - [X] Establish Links.
+- [X] Creating a error/success message when inserting a link or text.
 - [X] 
 ---
 
 ## 🚢 Stage 3:
 ### ✅ Objectives:
-
+- [ ] Create PowerPoint
+- [ ] Complete Presentation
+- 
